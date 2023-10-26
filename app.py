@@ -19,6 +19,9 @@ app.config.from_pyfile('config.py')
 mail = Mail(app)
 
 
+@auth.route('/index')
+def index():
+    return jsonify({'message': 'Welcome to our banking app'})
 
 def create_app(test_config=None):
     app = Flask(__name__,instance_relative_config=True)

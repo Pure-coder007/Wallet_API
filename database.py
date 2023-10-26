@@ -1,13 +1,28 @@
 import mysql.connector
 from datetime import datetime
 
+
+
 config = {
-    'user': 'root',
+    'user': 'mark_api',
     'password': 'language007',
-    'host' : 'localhost',
+    'host' : 'db4free.net',
     'port' : '3306',
     'database' : 'wallet_api'
 }
+
+
+
+
+
+
+# config = {
+#     'user': 'root',
+#     'password': 'language007',
+#     'host' : 'localhost',
+#     'port' : '3306',
+#     'database' : 'wallet_api'
+# }
 
 def setup_database():
     config['database'] = None
