@@ -8,6 +8,8 @@ Flask-Bcrypt
 Flask-JWT-Extended
 Flask-Login
 Flask-Mail
+Flask-SQLAlchemy
+greenlet
 gunicorn
 itsdangerous
 Jinja2
@@ -17,7 +19,6 @@ packaging
 protobuf
 PyJWT
 python-dotenv
+SQLAlchemy
+typing_extensions
 Werkzeug
-
-
-
